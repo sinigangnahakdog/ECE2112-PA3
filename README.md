@@ -7,8 +7,8 @@ In this repository, you will find my codes for Experiment 3 containing two probl
 2. Problem 2 (performing operations on a dataframe)
 <br>
 The following tools were used in the completion of this experiment: <br>
-- Anaconda Navigator 2.6.0<br>
-- Jupyter Notebook 7.0.8
+- Anaconda Navigator<br>
+- Jupyter Notebook
 
 ## File Inclusions
 1. **Garcia_Pandas-P1.py** - Problem 1 code
@@ -17,7 +17,7 @@ The following tools were used in the completion of this experiment: <br>
 4. **cars.csv** - Dataframe
 
 ## Problem 1
-This problem involves loading a dataset provided in .csv format into a Pandas dataframe, named ***cars***, using the ***pd.read_csv('cars.csv')*** operation. Then, the first five and last five rows of the dataframe were displayed using the operation ***cars.head()*** and ***cars.tail()***.
+The problem involves loading a dataset provided in .csv format into a Pandas dataframe, named as ***cars***, using the ***pd.read_csv('cars.csv')*** operation. After that, the first five and last five rows of the dataframe were displayed using the operation ***cars.head()*** and ***cars.tail()***.
 
 ## Problem 2
 In this problem, advanced data manipulation techniques such as subsetting, slicing, and indexing were applied to extract specific information from the ***cars*** dataframe created in Problem 1.
