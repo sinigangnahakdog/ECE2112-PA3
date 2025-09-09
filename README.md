@@ -2,7 +2,7 @@
 # **Experiment 3: Python Data Analysis (Pandas)**
 
 ## Getting Started
-In this repository, you will find my codes for Experiment 3 containing two problems:
+In this repository, you will find the codes I made for Experiment 3 which contains two problems:
 1. Problem 1 (loading a dataframe)
 2. Problem 2 (performing operations on a dataframe)
 <br>
@@ -32,7 +32,7 @@ b. Using ***cars.loc [cars ['Model'] == 'Mazda RX4']***, I obtained the row cont
 c. Applying the same ***loc*** operation used in the previous item, I used ***cars.loc [(cars ['Model'] == 'Camaro Z28'), ['Model', 'cyl']]***. For this case, I added another parameter to my operation, ***'cyl'***, to display the data located in such column.
 <br>
 
-d. Employing the ***loc*** operation again, I used ***cars.loc [cars ['Model'].isin(['Camaro Z28', 'Ford Pantera L', 'Honda Civic']), ['Model', 'cyl', 'gear']]*** to identify the number of cylinders and the type of gear that each car model has. The ***isin*** operation, which stands for "is in", was used to check whether values in a particular column are present within the specified dataframe.
+d. Employing the ***loc*** operation again, I used ***cars.loc [cars ['Model'].isin(['Camaro Z28', 'Ford Pantera L', 'Honda Civic']), ['Model', 'cyl', 'gear']]*** to identify the number of cylinders and the type of gear that each car model has.
 
 ## Authors
 Eoin Gamliel Rye Q. Garcia
